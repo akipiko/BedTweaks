@@ -1,7 +1,7 @@
 {
   "text.autoconfig.bedtweaks.title": "BedTweaks",
-  "text.autoconfig.bedtweaks.option.allowSleepTime": "Allow to sleep anytime",
-  "text.autoconfig.bedtweaks.option.allowSleepTime.@Tooltip": "If true, allows to sleep when the current time of day is not valid for sleeping.",
+  "text.autoconfig.bedtweaks.option.allowAnytime": "Allow to sleep anytime",
+  "text.autoconfig.bedtweaks.option.allowAnytime.@Tooltip": "If true, allows to sleep when the current time of day is not valid for sleeping.",
   "text.autoconfig.bedtweaks.option.allowNearbyMonsters": "Allow to sleep near monsters",
   "text.autoconfig.bedtweaks.option.allowNearbyMonsters.@Tooltip": "If true, allows to sleep when monsters are nearby."
 }

@@ -4,6 +4,9 @@
   "package": "com.github.akipiko3150.bedtweaks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin",
+    "TestMixin"
   ],
   "client": [
   ],
