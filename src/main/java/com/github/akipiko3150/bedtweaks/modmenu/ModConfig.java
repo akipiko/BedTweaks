@@ -20,11 +20,11 @@ public class ModConfig implements ConfigData {
 
     @ConfigEntry.Gui.Tooltip()
     @Comment("If true, allows to sleep when the current time of day is not valid for sleeping.")
-    public boolean allowWithoutRange = true;
+    public boolean allowAnytime = true;
 
     @ConfigEntry.Gui.Tooltip()
-    @Comment("If true, allows to sleep when the current time of day is not valid for sleeping.")
-    public boolean allowAnytime = true;
+    @Comment("If true, allows you to sleep if you are out of bed range.")
+    public boolean allowWithoutRange = true;
 
     @ConfigEntry.Gui.Tooltip()
     @Comment("If true, allows to sleep when monsters are nearby.")
