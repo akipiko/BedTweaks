@@ -20,8 +20,12 @@ public abstract class PlayerEntityMixin extends LivingEntity {
     @Shadow
     private int sleepTimer;
 
-    @Inject(method = "canResetTimeBySleeping()Z", at = @At("RETURN"), cancellable = true)
-    public void canResetTimeBySleeping(CallbackInfoReturnable<Boolean> info){
+    @Inject(
+            method = "canResetTimeBySleeping()Z",
+            at = @At("RETURN"),
+            cancellable = true
+    )
+    public void InjectCanResetTimeBySleeping(CallbackInfoReturnable<Boolean> info){
         info.setReturnValue(this.isSleeping() && this.sleepTimer >= 0);
     }
 
