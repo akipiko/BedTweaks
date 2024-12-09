@@ -5,5 +5,9 @@
   "text.autoconfig.bedtweaks.option.allowWithoutRange": "Allow to sleep without bed range",
   "text.autoconfig.bedtweaks.option.allowWithoutRange.@Tooltip": "If true, allows you to sleep if you are out of bed range.",
   "text.autoconfig.bedtweaks.option.allowNearbyMonsters": "Allow to sleep near monsters",
-  "text.autoconfig.bedtweaks.option.allowNearbyMonsters.@Tooltip": "If true, allows to sleep when monsters are nearby."
+  "text.autoconfig.bedtweaks.option.allowNearbyMonsters.@Tooltip": "If true, allows to sleep when monsters are nearby.",
+  "text.autoconfig.bedtweaks.option.skipToNight": "Skip to night from day",
+  "text.autoconfig.bedtweaks.option.skipToNight.@Tooltip": "If true, skips to night if you sleep during the day.",
+  "text.autoconfig.bedtweaks.option.removeSleepingTime": "Remove sleeping time",
+  "text.autoconfig.bedtweaks.option.removeSleepingTime.@Tooltip": "If true, removes the redundant sleep time."
 }

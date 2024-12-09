@@ -1,5 +1,6 @@
 package com.github.akipiko3150.bedtweaks.mixin;
 
+import com.github.akipiko3150.bedtweaks.modmenu.ModConfig;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -26,7 +27,8 @@ public abstract class PlayerEntityMixin extends LivingEntity {
             cancellable = true
     )
     public void InjectCanResetTimeBySleeping(CallbackInfoReturnable<Boolean> info){
-        info.setReturnValue(this.isSleeping() && this.sleepTimer >= 0);
+        int skipTime = ModConfig.instance.removeSleepingTime ? 0 : 100;
+        info.setReturnValue(this.isSleeping() && this.sleepTimer >= skipTime);
     }
 
 }
